@@ -7,37 +7,30 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="restaurant_managers")
-public class RestaurantManagerEntity {
+@Table(name="customers")
+public class CustomerEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int managerId;
-	private int restaurantId;
+	private int customerId;
 	private String firstName;
 	private String lastName;
 	private String address;
 	private String emailAddress;
 	private String phoneNumber;
-	private String managerPassword;
+	private String customerPassword;
 	private String entryDate;
 	
-	public RestaurantManagerEntity() {
+	public CustomerEntity() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
-	public int getManagerId() {
-		return managerId;
+
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setManagerId(int managerId) {
-		this.managerId = managerId;
-	}
-	public int getRestaurantId() {
-		return restaurantId;
-	}
-	public void setRestaurantId(int restaurantId) {
-		this.restaurantId = restaurantId;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 	public String getFirstName() {
 		return firstName;
@@ -69,11 +62,11 @@ public class RestaurantManagerEntity {
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-	public String getManagerPassword() {
-		return managerPassword;
+	public String getCustomerPassword() {
+		return customerPassword;
 	}
-	public void setManagerPassword(String managerPassword) {
-		this.managerPassword = managerPassword;
+	public void setCustomerPassword(String customerPassword) {
+		this.customerPassword = customerPassword;
 	}
 	public String getEntryDate() {
 		return entryDate;
