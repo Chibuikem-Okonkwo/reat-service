@@ -9,5 +9,4 @@ public class ReatDatabaseApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ReatDatabaseApplication.class, args);
 	}
-
 }
