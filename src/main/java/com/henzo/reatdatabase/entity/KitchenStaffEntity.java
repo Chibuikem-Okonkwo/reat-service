@@ -1,7 +1,17 @@
 package com.henzo.reatdatabase.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="kitchen_staff")
 public class KitchenStaffEntity {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int kitchenStaffId;
 	private int restaurantId;
 	private String firstName;
