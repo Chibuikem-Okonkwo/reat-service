@@ -1,4 +1,4 @@
-package com.henzo.reatdatabase.controller;
+package com.henzo.reatdatabase.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
