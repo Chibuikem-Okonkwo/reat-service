@@ -26,7 +26,7 @@ public class RestaurantController {
 	}
 	
 	@RequestMapping(value="addrestaurant", method=RequestMethod.POST)
-	public String addRestaurants(@RequestBody RestaurantEntity restaurant) {
+	public String addRestaurant(@RequestBody RestaurantEntity restaurant) {
 		return restaurantService.addRestaurant(restaurant);
 	}
 	
