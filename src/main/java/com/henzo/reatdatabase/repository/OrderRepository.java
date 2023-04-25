@@ -8,4 +8,5 @@ import com.henzo.reatdatabase.entity.OrderEntity;
 @Repository
 public interface OrderRepository extends JpaRepository<OrderEntity, Integer> {
 
+	
 }
