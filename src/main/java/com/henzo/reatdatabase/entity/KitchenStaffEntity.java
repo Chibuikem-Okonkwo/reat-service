@@ -23,7 +23,6 @@ public class KitchenStaffEntity {
 	private String entryDate;
 	
 	public KitchenStaffEntity() {
-		super();
 	}
 	
 	public int getKitchenStaffId() {

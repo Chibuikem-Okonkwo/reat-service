@@ -19,7 +19,6 @@ public class MealPaymentEntity {
 	private String entryDate;
 	
 	public MealPaymentEntity() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 	

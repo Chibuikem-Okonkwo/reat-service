@@ -23,8 +23,7 @@ public class RestaurantManagerEntity {
 	private String entryDate;
 	
 	public RestaurantManagerEntity() {
-		super();
-		// TODO Auto-generated constructor stub
+
 	}
 	
 	public int getManagerId() {

@@ -19,7 +19,6 @@ public class MenuCategoryEntity {
 	private String entryDate;
 	
 	public MenuCategoryEntity() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 	

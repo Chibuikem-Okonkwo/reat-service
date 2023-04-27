@@ -22,7 +22,6 @@ public class OrderEntity {
 	private String entryDate;
 	
 	public OrderEntity() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 

@@ -22,7 +22,6 @@ public class FoodMenuEntity {
 	private String entryDate;
 	
 	public FoodMenuEntity() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 

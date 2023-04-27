@@ -22,7 +22,6 @@ public class CustomerEntity {
 	private String entryDate;
 	
 	public CustomerEntity() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 

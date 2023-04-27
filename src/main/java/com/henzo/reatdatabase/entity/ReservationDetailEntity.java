@@ -22,7 +22,6 @@ public class ReservationDetailEntity {
 	private String entryDate;
 	
 	public ReservationDetailEntity() {
-		super();
 		// TODO Auto-generated constructor stub
 	}
 
