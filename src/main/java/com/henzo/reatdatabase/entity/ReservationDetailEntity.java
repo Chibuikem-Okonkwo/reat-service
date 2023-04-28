@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class ReservationDetailEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int reservationId;
 	private int tableId;
 	private int customerId;

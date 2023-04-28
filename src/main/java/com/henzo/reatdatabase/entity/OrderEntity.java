@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class OrderEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int orderId;
 	private int foodMenuId;
 	private int customerId;

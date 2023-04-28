@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class KitchenStaffEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int kitchenStaffId;
 	private int restaurantId;
 	private String firstName;

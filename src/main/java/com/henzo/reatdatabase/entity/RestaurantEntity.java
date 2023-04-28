@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class RestaurantEntity {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int restaurantId;
 	private String restaurantName;
 	private String restaurantAddress;
